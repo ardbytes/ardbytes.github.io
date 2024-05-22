@@ -1,2 +1,1 @@
-# ardbytes.github.io
-Dev Journal
+Daily record of my journey as a software developer...
