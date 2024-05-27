@@ -1,1 +1,5 @@
-Daily record of my journey as a software developer....
+#### Links
+
+1. [Bookmarks][bm]
+
+[bm]: /bookmarks
