@@ -11,4 +11,17 @@ Later chapters of the book discuss:
 2. Building blocks and patterns of scalable architectures.
 3. Abstractions that allows extracting parts of a large system into well-defined, reusable components.
 
+### Chapter 2: Data models and Query languages
+
+Relational, document, and graph data models are widely used today.
+
+Data models widely used today:
+
+1. Relational ( good for representing one-to-many and many-to-one relations )
+2. Document ( good for representing one-to-many relations )
+3. Graph ( good for highly related data )
+
+The data model that best fits our application depends on the type of data we need to store and their access patterns ( relations ).
+Later chapters of the book discuss how to find out the data model that best fits the requirements of our application.
+
 [ddia]: https://dataintensive.net/
