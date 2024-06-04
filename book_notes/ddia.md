@@ -24,4 +24,6 @@ Data models widely used today:
 The data model that best fits our application depends on the type of data we need to store and their access patterns ( relations ).
 Later chapters of the book discuss how to find out the data model that best fits the requirements of our application.
 
+> Study about the full text search data model.
+
 [ddia]: https://dataintensive.net/
