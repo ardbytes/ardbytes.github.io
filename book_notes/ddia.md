@@ -26,4 +26,13 @@ Later chapters of the book discuss how to find out the data model that best fits
 
 > Study about the full text search data model.
 
+### Chapter 3: Storage and Retrieval
+
+Understanding how storage engines store and retrieve data is necessary for selecting one that suites the needs of an application.
+This knowledge is also useful for tuning selected storage engine to improve its performance. SSTables, Hash indexes, and B-Trees
+are some of the widely used data structures in storage engines.
+
+For scalability, it is wise to use separate database servers for transaction processing and analytics. Indexing improves performance
+of transaction processing applications and encoding improves performance of analytics applications.
+
 [ddia]: https://dataintensive.net/
