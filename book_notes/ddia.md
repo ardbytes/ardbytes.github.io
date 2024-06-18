@@ -35,4 +35,13 @@ are some of the widely used data structures in storage engines.
 For scalability, it is wise to use separate database servers for transaction processing and analytics. Indexing improves performance
 of transaction processing applications and encoding improves performance of analytics applications.
 
+### Chapter 4: Encoding and Evolution
+
+The choice of encoding affects how in-memory data structures are represented as bytes on a network connection or inside a disk.
+Choice of encoding impacts the amount of storage used and the scope for future evolution of the encoded data. Data when encoded
+according to a schema ensures correctness.
+
+Applications will be expected to process new data as requirements arise. Schema evolution demands backward compatibility ( new code can
+read old data ) and forward compatibility ( old code can read new data ) from the encoding standard.
+
 [ddia]: https://dataintensive.net/
