@@ -44,4 +44,9 @@ according to a schema ensures correctness.
 Applications will be expected to process new data as requirements arise. Schema evolution demands backward compatibility ( new code can
 read old data ) and forward compatibility ( old code can read new data ) from the encoding standard.
 
+### Chapter 5: Replication
+
+Replication becomes necessary when users expect require high availability, low latency, and tolerance to hardware and network failures.
+Applications handling replicated ( distributed ) data must resolve issues arising from **concurrent access** and **replication lag**.
+
 [ddia]: https://dataintensive.net/
