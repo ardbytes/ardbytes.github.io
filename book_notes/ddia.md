@@ -47,6 +47,13 @@ read old data ) and forward compatibility ( old code can read new data ) from th
 ### Chapter 5: Replication
 
 Replication becomes necessary when users expect require high availability, low latency, and tolerance to hardware and network failures.
-Applications handling replicated ( distributed ) data must resolve issues arising from **concurrent access** and **replication lag**.
+Applications handling replicated ( distributed ) data must resolve issues arising from concurrent access and replication lag.
+
+### Chapter 5: Partitioning
+
+Partitioning complements Replication in making the system more scalable and reliable ( at the cost of increasing maintenance ). This chapter
+discusses approaches to store and access data that are partitioned across several nodes. Concept of service discovery is also mentioned.
+Of special interest is the scenario where a single user action requires storing data in several partitions. What happens when writing to
+some partitions succeed and others fail?
 
 [ddia]: https://dataintensive.net/
