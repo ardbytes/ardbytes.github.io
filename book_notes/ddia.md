@@ -56,4 +56,14 @@ discusses approaches to store and access data that are partitioned across severa
 Of special interest is the scenario where a single user action requires storing data in several partitions. What happens when writing to
 some partitions succeed and others fail?
 
+### Chapter 6: Transactions
+
+A single database serves many users. Things become complicated when multiple users attempt to modify values at the same time. Unchecked updates
+can lead to the whole database being inconsistent and thus worthless. To maintain consistency transactions are necessary. A database can be
+configured to run in one of the several isolation levels, and it must ensure that data remains consistent as per the configured
+isolation level.
+
+> [This article][mvcc-isolation] describes using MVCC to implement isolation levels.
+
 [ddia]: https://dataintensive.net/
+[mvcc-isolation]: https://notes.eatonphil.com/2024-05-16-mvcc.html
