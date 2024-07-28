@@ -49,14 +49,14 @@ read old data ) and forward compatibility ( old code can read new data ) from th
 Replication becomes necessary when users expect require high availability, low latency, and tolerance to hardware and network failures.
 Applications handling replicated ( distributed ) data must resolve issues arising from concurrent access and replication lag.
 
-### Chapter 5: Partitioning
+### Chapter 6: Partitioning
 
 Partitioning complements Replication in making the system more scalable and reliable ( at the cost of increasing maintenance ). This chapter
 discusses approaches to store and access data that are partitioned across several nodes. Concept of service discovery is also mentioned.
 Of special interest is the scenario where a single user action requires storing data in several partitions. What happens when writing to
 some partitions succeed and others fail?
 
-### Chapter 6: Transactions
+### Chapter 7: Transactions
 
 A single database serves many users. Things become complicated when multiple users attempt to modify values at the same time. Unchecked updates
 can lead to the whole database being inconsistent and thus worthless. To maintain consistency transactions are necessary. A database can be
@@ -64,6 +64,17 @@ configured to run in one of the several isolation levels, and it must ensure tha
 isolation level.
 
 > [This article][mvcc-isolation] describes using MVCC to implement isolation levels.
+
+### Chapter 8: the Trouble with Distributed Systems
+
+When nodes communicate only through message passing over a network many issues may occur:
+
+1. Node could be alive but connectivity to the node may be broken.
+2. Node can crash without the system knowing what it was upto.
+3. Skewed clocks may mess up with ordering of events.
+4. Process pauses along with failover mechanisms may cause data inconsistency. 
+
+To handle these issues, it is necessary to develop a model of the system, and develop algorithms in accordance to the specified model.
 
 [ddia]: https://dataintensive.net/
 [mvcc-isolation]: https://notes.eatonphil.com/2024-05-16-mvcc.html
