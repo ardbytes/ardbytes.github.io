@@ -76,5 +76,11 @@ When nodes communicate only through message passing over a network many issues m
 
 To handle these issues, it is necessary to develop a model of the system, and develop algorithms in accordance to the specified model.
 
+### Chapter 9: Consistency and Consensus
+
+Many of the problems discussed in previous chapters, like performing a failover of a leader, enforcing uniqueness constraints, and atomic transaction
+commit can be solved by deploying a service that implements a consensus algorithm. Zookeeper provides consensus while also supporting fault tolerance.
+From next chapter onwards focus will be on building practical applications based on the theory discussed so far in this book.
+
 [ddia]: https://dataintensive.net/
 [mvcc-isolation]: https://notes.eatonphil.com/2024-05-16-mvcc.html
