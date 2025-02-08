@@ -11,7 +11,10 @@ about the cost of pretraining a model ( neural network ) and demostrates using [
 into watching the Deep Dive into LLMs video, it is just wonderful. He talked about the human effort that goes into providing curated data in the form of questions and
 answers for post training of models, strategies to mitigate hallucinations, and the last one helped me get why LLMs respond to prompts the way they do. The key to
 understanding LLM output is to know that the human input is processed on a per token basis and not on a per character or a per word basis. Since the computation used
-in generation of next token is fixed, it is useful to craft prompts in such a way that allows LLMs to use as many tokens as necessary to provide an answer.
+in generation of next token is fixed, it is useful to craft prompts in such a way that allows LLMs to use as many tokens as necessary to provide an answer. Another
+thing that is useful in crafting better prompts is to know the **difference** between the knowledge of LLMs and context window. In responding to providing a summary
+of a concept, the LLM must first retrieve the content related to the concept from its knowledge base. However, if the context is given within the prompt, then the LLM
+just needs to work with the given context for generating response tokens, resulting in better and faster responses.
 
 Another thing I started was reading the [AI Engineering](https://www.amazon.com/dp/1098166302) book by Chip. After reading the first chapter, I liked the style of
 writing and look forward to read the whole book.
