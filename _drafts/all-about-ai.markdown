@@ -19,10 +19,10 @@ context window. In responding to providing a summary of a concept, the LLM must 
 the context is given within the prompt, then the LLM just needs to work with the given context for generating response tokens, resulting in better and faster responses.
 This is similar to how humans work. It is easier for us to respond to questions related to something we have known recently. The **last part** of the video describes
 reinforcement learning ( RL ). An LLM tuned with RL does not just mimic data labelers, and is able to think about the question provided and use its knowledge base
-like a human. RL works really well for questions where the answers are verifiable ( like math word problems ). However, for questions where the answers are not 
-verifiable ( like asking to tell a joke ), Karpathy discusses another technique known as reinforcement learning with human feedback ( RLHF ). In conclusion, he lists
-the [various][lmarena] [sources][ainews] to [follow][xai] for staying updated on all things happening in AI. Why did I write 500 words about Deep Dive into LLMs video?
-Only because I really want you to watch the full video. It is very good and my description does not do it justice. So please go watch the [whole video][kv]!
+like a human. RL works really well for questions where the answers are verifiable ( like math word problems ). With the release of **DeepSeek-R1** model there has been an increased
+interest in RL techniques. However, for questions where the answers are not verifiable ( like asking to tell a joke ), Karpathy discusses another technique known as reinforcement
+learning with human feedback ( RLHF ). In conclusion, he lists the [various][lmarena] [sources][ainews] to [follow][xai] for staying updated on all things happening in AI.
+The Deep Dive into LLMs video is very good and my description does not do it justice. So, please go watch the [whole video][kv]!
 
 Another thing I started was reading the [AI Engineering](https://www.amazon.com/dp/1098166302) book by Chip. After reading the first chapter, I liked the style of
 writing and look forward to read the whole book.
