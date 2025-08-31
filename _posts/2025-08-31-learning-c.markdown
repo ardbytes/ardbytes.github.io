@@ -28,7 +28,7 @@ I also plan to read the [Netdata][nd] codebase, since it would be useful at work
 [dc]: https://www.youtube.com/watch?v=ES5_IWG8rcw
 [cm]: https://www.youtube.com/watch?v=ES5_IWG8rcw&t=5620s
 [qa]: https://www.youtube.com/watch?v=ES5_IWG8rcw&t=7770s
-[adv]: https://www.youtube.com/watch?v=eAhWIO1Ra6M 
+[adv]: https://www.youtube.com/watch?v=eAhWIO1Ra6M
 [hh]: https://mollyrocket.com/#handmade
 [ac]: https://www.youtube.com/playlist?list=PLrEMgOSrS_3cFJpM2gdw8EGFyRBZOyAKY
 [bg]: https://beej.us/guide/bgc/
