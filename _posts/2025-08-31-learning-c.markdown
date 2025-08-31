@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learning C"
-date:   2025-08-31 22:00:00 +0530
+date:   2025-08-31 16:00:00 +0530
 categories: clang
 ---
 
