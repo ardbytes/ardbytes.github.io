@@ -23,7 +23,7 @@ wait for it to finish.
 ### Mutual Exclusion
 
 Several algorithms that solve the mutual exclusion problem are discussed. The
-Peterson Lock algorithm and Lamport's Bakery algorithm are noteworthy.
+[Peterson Lock algorithm][pla] and Lamport's Bakery algorithm are noteworthy.
 
 ### Concurrent Objects
 
@@ -49,3 +49,4 @@ related to lock-free and wait-free co-ordination are also discussed.
 [cm]: https://jepsen.io/consistency/models
 [tp]: https://mobitec.ie.cuhk.edu.hk/iems5730Spring2024/static_files/slides/ConsistencyModelsESTR4316Spring2024.pdf
 [nop]: https://dspace.mit.edu/bitstream/handle/1721.1/73900/Shavit_On%20the%20nature%20of%20progress.pdf
+[pla]: https://www.youtube.com/watch?v=QAzuAn3nFGo
