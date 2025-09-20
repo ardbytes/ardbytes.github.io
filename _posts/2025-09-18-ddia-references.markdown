@@ -11,11 +11,24 @@ refered items.
 
 ### Chapter 1: Reliable Scalable and Maintainable Applications
 
-The [Principles of Software Engineering, Part 1][pose-p1] post by Nathan Marz
+Reliability is the ability of the system to continue to provide service even
+during system faults. Handling faults in a system make in reliable. To be
+able to handle system faults we must first anticipate them. The
+[Principles of Software Engineering, Part 1][pose-p1] post by Nathan Marz
 discusses how Engineering is different from Programming. In Programming, the
 set of inputs are deterministic. In Engineering, they are not. A big part of
 being a good Engineer is having the ability to anticipate different conditions
 that the system would be subjected to and build capabilities in the system to
 handle such conditions gracefully.
 
+Scalability is the ability of the system to deliver acceptable performance
+even in situations of increased load. Section 2.3 of the Amazon [Dynamo][dyn]
+research paper discusses the design considerations for achieving high
+scalability. Section 4.2 describes [consistent hashing][ch] which is used for
+data paritioning and replication. Section 4.4 describes [vector clocks][vc]
+which is used for data consistency.
+
 [pose-pi]: http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html
+[dyn]: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+[ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
+[vc]: https://www.youtube.com/watch?v=b2Tud5Kkue8

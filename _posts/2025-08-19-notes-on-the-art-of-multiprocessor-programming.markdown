@@ -43,6 +43,14 @@ overlapping memory accesses. A collection of Single Reader Single Writer
 Registers (SRSW) and used to construct MRSW and MRMW registers. Ideas
 related to lock-free and wait-free co-ordination are also discussed. 
 
+#### The relative power of primitive synchronization operations
+
+The problem of consensus is discussed. It is problematic for concurrently
+executing threads to agree on a value. Consensus number of a synchronization
+primitive is the maximum number of threads for which that primitive can
+solve the consensus problem in a wait-free manner. The test-and-set has
+a consensus number of 2, while the compare-and-swap has a consensus number
+of infinity.
 
 [br]: https://h4x0r.org/futex/
 [yt-pe]: https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
