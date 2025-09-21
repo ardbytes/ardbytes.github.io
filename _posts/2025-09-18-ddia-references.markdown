@@ -7,7 +7,7 @@ categories: concurrency
 
 One of the good things about The DDIA book is the References section at the end
 of each chapter. This blog post documents my notes on reading some of the
-refered items.
+referenced items.
 
 ### Chapter 1: Reliable Scalable and Maintainable Applications
 
@@ -29,11 +29,11 @@ data paritioning and replication. Section 4.4 describes [vector clocks][vc]
 which is used for data consistency.
 
 Measuring latency is important to understand how systems are able to cope
-with load. This talk by Gil Tene on [How NOT to Measure Latency][gt] provides
-useful information about [monitoring the metrics][mtm] that provide useful
-insights into the behaviour of your systems.
+with load. Gil Tene's talk on [How NOT to Measure Latency][gt] provide numerous
+hints on [monitoring the metrics][mtm] that are most useful in analyzing the
+behaviour of your systems.
 
-[pose-pi]: http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html
+[pose-p1]: http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html
 [dyn]: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
 [vc]: https://www.youtube.com/watch?v=b2Tud5Kkue8
