@@ -28,7 +28,14 @@ scalability. Section 4.2 describes [consistent hashing][ch] which is used for
 data paritioning and replication. Section 4.4 describes [vector clocks][vc]
 which is used for data consistency.
 
+Measuring latency is important to understand how systems are able to cope
+with load. This talk by Gil Tene on [How NOT to Measure Latency][gt] provides
+useful information about [monitoring the metrics][mtm] that provide useful
+insights into the behaviour of your systems.
+
 [pose-pi]: http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html
 [dyn]: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
 [vc]: https://www.youtube.com/watch?v=b2Tud5Kkue8
+[gt]: https://www.youtube.com/watch?v=lJ8ydIuPFeU
+[mtm]: https://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-q-whats-wrong-with_21.html
