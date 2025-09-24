@@ -17,9 +17,9 @@ able to handle system faults we must first anticipate them. The
 [Principles of Software Engineering, Part 1][pose-p1] post by Nathan Marz
 discusses how Engineering is different from Programming. In Programming, the
 set of inputs are deterministic. In Engineering, they are not. A big part of
-being a good Engineer is having the ability to anticipate different conditions
-that the system would be subjected to and build capabilities in the system to
-handle such conditions gracefully.
+being a good Engineer is having the ability to **anticipate** different
+conditions that the system would be subjected to and build capabilities in
+the system to handle such conditions gracefully.
 
 Scalability is the ability of the system to deliver acceptable performance
 even in situations of increased load. Section 2.3 of the Amazon [Dynamo][dyn]
@@ -33,9 +33,20 @@ with load. Gil Tene's talk on [How NOT to Measure Latency][gt] provide numerous
 hints on [monitoring the metrics][mtm] that are most useful in analyzing the
 behaviour of your systems.
 
+Maintainability of a system affects its reliability and scalability. [Out of the
+Tar Pit][oot-tp] discusses how state is the main culprit in making systems
+complex and hard to maintain. In [The Big OOPs][tbo] talk, Casey says that
+"compile-time hierarchy of encapsulation that matches the domain model" is the
+dominant way of writing object oriented programs. This makes them hard to
+maintain. Casey further notes that **discriminated unions** are more useful
+than virtual functions. However, Bjarne did not include it into C++ because
+he thought that it broke modularity.
+
 [pose-p1]: http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html
 [dyn]: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
 [vc]: https://www.youtube.com/watch?v=b2Tud5Kkue8
 [gt]: https://www.youtube.com/watch?v=lJ8ydIuPFeU
 [mtm]: https://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-q-whats-wrong-with_21.html
+[oot-tp]: https://curtclifton.net/papers/MoseleyMarks06a.pdf
+[tbo]: https://www.youtube.com/watch?v=wo84LFzx5nI
