@@ -42,6 +42,15 @@ maintain. Casey further notes that **discriminated unions** are more useful
 than virtual functions. However, Bjarne did not include it into C++ because
 he thought that it broke modularity.
 
+### Chapter 2: Data Models and Query Languages
+
+The relational data model dominates the other data models by a wide margin. On
+a related note, please [read][wg1] [these][wg2]. The first paper provides a
+summary of 35 years of data model proposals, grouped into 9 different eras. I
+found the summary after describing each era very informative. The second paper
+is a revision of the first paper after a gap of two decades. The discussion
+about vector databases and column-oriented databases are noteworthy.
+
 [pose-p1]: http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html
 [dyn]: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
@@ -50,3 +59,5 @@ he thought that it broke modularity.
 [mtm]: https://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-q-whats-wrong-with_21.html
 [oot-tp]: https://curtclifton.net/papers/MoseleyMarks06a.pdf
 [tbo]: https://www.youtube.com/watch?v=wo84LFzx5nI
+[wg1]: http://mitpress2.mit.edu/books/chapters/0262693143chapm1.pdf
+[wg2]: https://db.cs.cmu.edu/papers/2024/whatgoesaround-sigmodrec2024.pdf
