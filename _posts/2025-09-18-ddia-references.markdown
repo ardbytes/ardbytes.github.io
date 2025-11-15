@@ -58,7 +58,11 @@ Watch the [Hash Table Internals][hti] playlist by Arpit, then work through the
 [Write a Hash Table in C][htic] tutorial by James. Also I enjoyed reading the
 [uthash][uth] code by Troy.
 
+LSM Trees and B-Trees are also commonly used [data structures][ds] for indexing
+stored data.
+
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
+[ds]: https://www.youtube.com/watch?v=xwI5OBEnsZU
 [dyn]: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
 [gt]: https://www.youtube.com/watch?v=lJ8ydIuPFeU
 [hti]: https://www.youtube.com/playlist?list=PLsdq-3Z1EPT2UnueESBLReaVSLIo_BuAc
