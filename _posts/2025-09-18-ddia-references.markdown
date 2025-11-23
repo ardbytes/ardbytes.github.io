@@ -58,11 +58,26 @@ Watch the [Hash Table Internals][hti] playlist by Arpit, then work through the
 [Write a Hash Table in C][htic] tutorial by James. Also I enjoyed reading the
 [uthash][uth] code by Troy.
 
-LSM Trees and B-Trees are also commonly used [data structures][ds] for indexing
-stored data.
+LSM Trees and B-Trees are also commonly used [data][ds1]-[structures][ds2] for
+indexing stored data.
+
+### Chapter 4: Encoding and Evolution
+
+The data stored by applications need to evolve with changing application
+requirements. In this regard, compatibility becomes important.
+
+1. Backward Compatibility: Newer code can read data written by older code.
+2. Forward Compatibility: Older code can read data written by newer code.
+
+JSON, XML, MessagePack, and Thrift are some of the popular encoding formats.
+Asynchronous message passing is a widely used technique to exhange data
+between two processes. [This article][mqus] by Leandro describes a simple yet
+interesting approach to buidling a message broker using only two Unix signals.
+
 
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
-[ds]: https://www.youtube.com/watch?v=xwI5OBEnsZU
+[ds1]: https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4
+[ds2]: https://www.youtube.com/watch?v=xwI5OBEnsZU
 [dyn]: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
 [gt]: https://www.youtube.com/watch?v=lJ8ydIuPFeU
 [hti]: https://www.youtube.com/playlist?list=PLsdq-3Z1EPT2UnueESBLReaVSLIo_BuAc
@@ -75,3 +90,4 @@ stored data.
 [vc]: https://www.youtube.com/watch?v=b2Tud5Kkue8
 [wg1]: http://mitpress2.mit.edu/books/chapters/0262693143chapm1.pdf
 [wg2]: https://db.cs.cmu.edu/papers/2024/whatgoesaround-sigmodrec2024.pdf
+[mqus]: https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals
