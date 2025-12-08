@@ -74,6 +74,14 @@ Asynchronous message passing is a widely used technique to exhange data
 between two processes. [This article][mqus] by Leandro describes a simple yet
 interesting approach to buidling a message broker using only two Unix signals.
 
+### Chapter 5: Replication
+
+When a single database node cannot handle the load, it must be scaled to
+multiple nodes. A single node accepts writes with multiple replicated nodes
+handling reads. When this write-accepting node fails, then one of the readers
+must be promoted to accept writes. The write-accepting node is called a leader.
+The Improving MySQL Cluster Uptime [article][ua] describes how automatic
+failover helped in improving relability of Uber's database cluster.
 
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
 [ds1]: https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4
@@ -82,12 +90,13 @@ interesting approach to buidling a message broker using only two Unix signals.
 [gt]: https://www.youtube.com/watch?v=lJ8ydIuPFeU
 [hti]: https://www.youtube.com/playlist?list=PLsdq-3Z1EPT2UnueESBLReaVSLIo_BuAc
 [htic]: https://github.com/jamesroutley/write-a-hash-table
+[mqus]: https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals
 [mtm]: https://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-q-whats-wrong-with_21.html
 [oot-tp]: https://curtclifton.net/papers/MoseleyMarks06a.pdf
 [pose-p1]: http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html
 [tbo]: https://www.youtube.com/watch?v=wo84LFzx5nI
+[ua]: https://www.uber.com/en-IN/blog/improving-mysql-cluster-uptime-part1/
 [uth]: https://github.com/troydhanson/uthash
 [vc]: https://www.youtube.com/watch?v=b2Tud5Kkue8
 [wg1]: http://mitpress2.mit.edu/books/chapters/0262693143chapm1.pdf
 [wg2]: https://db.cs.cmu.edu/papers/2024/whatgoesaround-sigmodrec2024.pdf
-[mqus]: https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals
