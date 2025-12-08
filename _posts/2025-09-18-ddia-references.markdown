@@ -76,12 +76,12 @@ interesting approach to buidling a message broker using only two Unix signals.
 
 ### Chapter 5: Replication
 
-When a single database node cannot handle the load, it must be scaled to
-multiple nodes. A single node accepts writes with multiple replicated nodes
-handling reads. When this write-accepting node fails, then one of the readers
-must be promoted to accept writes. The write-accepting node is called a leader.
-The Improving MySQL Cluster Uptime [article][ua] describes how automatic
-failover helped in improving relability of Uber's database cluster.
+To avoid single point of failure multiple database nodes are needed. A single
+node accepts writes with multiple replicated nodes handling reads. When this
+write-accepting node fails, then one of the readers must be promoted to accept
+writes. The write-accepting node is called a leader.  The Improving MySQL
+Cluster Uptime [article][ua] describes how automatic failover helped in
+improving relability of Uber's database cluster.
 
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
 [ds1]: https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4
