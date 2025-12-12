@@ -5,6 +5,8 @@ date:   2025-09-18 11:00:00 +0530
 categories: books
 ---
 
+This blog post contains my notes taken while reading the [DDIA][ddia] book
+
 ### Chapter 1: Reliable Scalable and Maintainable Applications
 
 Reliability is the ability of the system to continue to provide service even
@@ -89,6 +91,7 @@ relational databases to handle scale. This involves splitting the tables of a
 database schema onto multiple nodes.
 
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
+[ddia]: https://dataintensive.net/
 [ds1]: https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4
 [ds2]: https://www.youtube.com/watch?v=xwI5OBEnsZU
 [dyn]: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
