@@ -1,13 +1,9 @@
 ---
 layout: post
-title:  "DDIA References"
+title:  "DDIA Notes"
 date:   2025-09-18 11:00:00 +0530
-categories: concurrency
+categories: books
 ---
-
-One of the good things about The DDIA book is the References section at the end
-of each chapter. This blog post documents my notes on reading some of the
-referenced items.
 
 ### Chapter 1: Reliable Scalable and Maintainable Applications
 
@@ -83,6 +79,15 @@ writes. The write-accepting node is called a leader.  The Improving MySQL
 Cluster Uptime [article][ua] describes how automatic failover helped in
 improving relability of Uber's database cluster.
 
+### Chapter 6: Partitioning
+
+While replication improves reliability of a system, partitioning improves its
+scalability. The book discusses horizontal partitioning, that is, distributing
+the rows of a table onto multiple nodes. However, vertical partitioning is also
+possible as described in the [article][pg] titled Partitioning Github's
+relational databases to handle scale. This involves splitting the tables of a
+database schema onto multiple nodes.
+
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
 [ds1]: https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4
 [ds2]: https://www.youtube.com/watch?v=xwI5OBEnsZU
@@ -93,6 +98,7 @@ improving relability of Uber's database cluster.
 [mqus]: https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals
 [mtm]: https://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-q-whats-wrong-with_21.html
 [oot-tp]: https://curtclifton.net/papers/MoseleyMarks06a.pdf
+[pg]: https://github.blog/engineering/infrastructure/partitioning-githubs-relational-databases-scale/
 [pose-p1]: http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html
 [tbo]: https://www.youtube.com/watch?v=wo84LFzx5nI
 [ua]: https://www.uber.com/en-IN/blog/improving-mysql-cluster-uptime-part1/
