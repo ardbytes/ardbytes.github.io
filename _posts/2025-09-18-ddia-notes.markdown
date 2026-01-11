@@ -23,7 +23,7 @@ Scalability is the ability of the system to deliver acceptable performance
 even in situations of increased load. Section 2.3 of the Amazon [Dynamo][dyn]
 research paper discusses the design considerations for achieving high
 scalability. Section 4.2 describes [consistent hashing][ch] which is used for
-data paritioning and replication. Section 4.4 describes [vector clocks][vc]
+data partitioning and replication. Section 4.4 describes [vector clocks][vc]
 which is used for data consistency.
 
 Measuring latency is important to understand how systems are able to cope
@@ -68,9 +68,9 @@ requirements. In this regard, compatibility becomes important.
 2. Forward Compatibility: Older code can read data written by newer code.
 
 JSON, XML, MessagePack, and Thrift are some of the popular encoding formats.
-Asynchronous message passing is a widely used technique to exhange data
+Asynchronous message passing is a widely used technique to exchange data
 between two processes. [This article][mqus] by Leandro describes a simple yet
-interesting approach to buidling a message broker using only two Unix signals.
+interesting approach to building a message broker using only two Unix signals.
 
 ### Chapter 5: Replication
 
@@ -79,7 +79,7 @@ node accepts writes with multiple replicated nodes handling reads. When this
 write-accepting node fails, then one of the readers must be promoted to accept
 writes. The write-accepting node is called a leader.  The Improving MySQL
 Cluster Uptime [article][ua] describes how automatic failover helped in
-improving relability of Uber's database cluster.
+improving reliability of Uber's database cluster.
 
 ### Chapter 6: Partitioning
 
@@ -90,12 +90,21 @@ possible as described in the [article][pg] titled Partitioning Github's
 relational databases to handle scale. This involves splitting the tables of a
 database schema onto multiple nodes.
 
+### Chapter 7: Transactions
+
+Along with the ACID acronym this chapter explains isolation levels. Database
+vendors implement the same isolation level differently. Therefore, it is
+important to know the details. The [Hermitage][hm] repository by Martin, the
+book's author, explains the differences between the isolation levels in
+popular databases.
+
 [ch]: https://www.youtube.com/watch?v=UF9Iqmg94tk
 [ddia]: https://dataintensive.net/
 [ds1]: https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4
 [ds2]: https://www.youtube.com/watch?v=xwI5OBEnsZU
 [dyn]: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
 [gt]: https://www.youtube.com/watch?v=lJ8ydIuPFeU
+[hm]: https://github.com/ept/hermitage
 [hti]: https://www.youtube.com/playlist?list=PLsdq-3Z1EPT2UnueESBLReaVSLIo_BuAc
 [htic]: https://github.com/jamesroutley/write-a-hash-table
 [mqus]: https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals
