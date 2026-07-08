@@ -12,3 +12,6 @@ Inspired by ( copied from?! ) Bin Wang's [MySQL course](https://wangbin579.gumro
 4. How to identify blocked threads via `SHOW FULL PROCESSLIST``?
 5. Why Even Simple Queries Can Sometimes Be Slow?
 6. What Causes MySQL to ‘Jitter’?
+7. Must-Know Config Settings That Affect Query Speed.
+8. How to Use Trace Logs to Diagnose Problems
+9. AI-Powered SQL Analyzing: From Execution Plans to Root Causes.
