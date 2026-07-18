@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Math Prompts"
-date:   2026-07-06 11:00:00 +0530
+date:   2026-07-18 11:00:00 +0530
 ---
 
 - What is a mathematical proof? What are its components? Give a worked example.
