@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Math Prompts"
+title:  "Physics Prompts"
 date:   2026-07-18 11:00:00 +0530
 ---
 
