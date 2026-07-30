@@ -16,3 +16,5 @@ Inspired by Bin Wang's [MySQL course](https://wangbin579.gumroad.com/l/mysql_cou
 - A Deep Yet Simple Look at Transactions
 - MySQL Isolation Levels: A Practical Guide
 - How JOINs Work Internally in MySQL
+- Why MySQL JOIN Performance Breaks Down at Scale
+- How MySQL Executes LIMIT and OFFSET Internally. Compare with PostgreSQL.
