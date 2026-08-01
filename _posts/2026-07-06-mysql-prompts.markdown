@@ -18,3 +18,6 @@ Inspired by Bin Wang's [MySQL course](https://wangbin579.gumroad.com/l/mysql_cou
 - How JOINs Work Internally in MySQL
 - Why MySQL JOIN Performance Breaks Down at Scale
 - How MySQL Executes LIMIT and OFFSET Internally. Compare with PostgreSQL.
+- What is CTE? Give one example of each type. Describe how MySQL plans their
+  execution.
+- Provide a deep dive into MySQL window functions.
