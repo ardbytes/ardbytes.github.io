@@ -13,6 +13,7 @@ Inspired by [Mathematics for Computer Science][mcs] by Eric Lehman, F. Thomson
   example of a SAT problem and demonstrate how to solve it.
 - What is a binary relation? List types of functions and their properties. Give
   examples of each type.
+- What is induction? Who was Robert W. Floyd and what is his contribution to the field of induction?
 
 ### Bonus
 
