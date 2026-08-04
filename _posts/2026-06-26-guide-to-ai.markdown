@@ -12,6 +12,9 @@ Inspired by this cohort conducted by [Arpit Bhayani][ab].
 - How to have agents provide structured output?
 - What strategies ensure prompt reliability? Give an example demonstrating the
   effectiveness of each strategy.
+- Describe a retrieval augmented generation (RAG) workflow. Describe various
+  trade-offs in terms of cost, latency, and accuracy. How would you optimize
+  the workflow for a large-scale enterprise environment?
 
 
 ### Guide to Agentic AI
