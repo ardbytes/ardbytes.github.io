@@ -15,6 +15,9 @@ Inspired by this cohort conducted by [Arpit Bhayani][ab].
 - Describe a retrieval augmented generation (RAG) workflow. Describe various
   trade-offs in terms of cost, latency, and accuracy. How would you optimize
   the workflow for a large-scale enterprise environment?
+- Describe an agent's Thought, Action, and Observation (TAO) loop. How can this
+  loop be optimized for efficiency and accuracy? Provide a real-world example of
+  an agent that effectively utilizes the TAO loop.
 
 
 ### Guide to Agentic AI

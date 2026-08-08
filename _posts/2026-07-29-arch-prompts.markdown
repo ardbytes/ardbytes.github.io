@@ -9,5 +9,8 @@ Randal E. Bryant and David R. O'Hallaron.
 
 - Write a C program to check CPU endianness using hexadecimal numbers.
 - Write a C program to verify elementary identities of boolean algebra.
+- How do CPUs encode integers? Why is 1 added after inverting the bits in 2's
+  complement representation?
+- Write a C program to demonstrate 2's complement arithmetic operations.
 
 [csarch]: https://csapp.cs.cmu.edu/3e/pieces/preface3e.pdf 
