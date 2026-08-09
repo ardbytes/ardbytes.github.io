@@ -4,6 +4,8 @@ title:  "Guide to AI"
 date:   2026-06-26 11:00:00 +0530
 ---
 
+
+
 Inspired by this cohort conducted by [Arpit Bhayani][ab].
 
 ### Applied AI
@@ -18,6 +20,9 @@ Inspired by this cohort conducted by [Arpit Bhayani][ab].
 - Describe an agent's Thought, Action, and Observation (TAO) loop. How can this
   loop be optimized for efficiency and accuracy? Provide a real-world example of
   an agent that effectively utilizes the TAO loop.
+- Install [pi][pica], use it to login into [openrouter][or] with an API key,
+  choose the Nemotron 3 Ultra model, and go through the
+  [Mini-LSM with Coding Agents guide][mlg].
 
 
 ### Guide to Agentic AI
@@ -34,3 +39,6 @@ How do they compare in terms of performance and efficiency?
 [tg]: https://arxiv.org/pdf/2606.24937
 [pwc]: https://paperswithcode.co
 [ab]: https://arpitbhayani.me/applied-ai
+[pica]: https://pi.dev/
+[or]: https://openrouter.ai/
+[mlg]: https://skyzh.github.io/mini-lsm/agent-fast-forward-overview.html
