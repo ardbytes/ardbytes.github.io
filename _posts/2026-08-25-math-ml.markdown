@@ -5,9 +5,7 @@ date:   2026-07-18 11:00:00 +0530
 ---
 
 - How is Linear Algebra [related][laps] to Probability and Statistics.
-- What is a sample space.
-- What is a probability measure.
-
+- What is a probability triplet and how is it transformed to push forward measure.
 
 #### References
 
