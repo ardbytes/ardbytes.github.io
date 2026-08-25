@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Mathematical Foundations of Machine Learning "
+date:   2026-07-18 11:00:00 +0530
+---
+
+- How is Linear Algebra [related][laps] to Probability and Statistics.
+- What is a sample space.
+- What is a probability measure.
+
+
+#### References
+
+1. [Lecture Series by Dr. Prathosh](https://www.youtube.com/playlist?list=PLgMDNELGJ1Cay-Q9Cn8KcpUcC58NDWuiu)
+
+
+[laps]: https://towardsdatascience.com/how-i-learned-linear-algebra-probability-and-statistics-for-data-science-b9d1c34dfa56/ 
